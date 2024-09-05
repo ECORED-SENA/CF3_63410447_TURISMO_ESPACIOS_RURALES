@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF3_63410447_TURISMO_ESPACIOS_RURALES/#/](https://ecored-sena.github.io/CF3_63410447_TURISMO_ESPACIOS_RURALES/#/)
 
 #
 
