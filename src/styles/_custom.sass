@@ -84,10 +84,11 @@
 
 .slyder-f__btn i
   font-size: 1.2rem
-  background-color: #FECE2F
+  background-color: #8804C3
   border-radius: 50px
   padding: .8rem 1rem
   box-shadow: 0px 0px 24px rgba(0, 0, 0, .3)
+  color: #fff
 
 .acordion .tarjeta
   background-color: #E3EAE2
@@ -212,4 +213,96 @@
 
 @media screen and (max-width: 992px)
   .cont_1_1:before,.cont_1_2,.cont_1_3,.cont_1_4:before
+    background-size: cover !important
+
+/********Tema 2 *********/
+.cont_2_1
+  background: rgb(233,189,104)
+  background: linear-gradient(90deg, rgba(233,189,104,1) 53%, rgba(240,243,240,1) 53%)
+
+.cont_2_2, .cont_2_2 *
+  position: relative
+.cont_2_2:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 60%
+  left: -8%
+  top: 5%
+  background: url(../assets/curso/tema2/2.png)
+  background-size: 100% 100%
+
+.cont_2_3
+  background: url(../assets/curso/tema2/4.png)
+  background-size: 100% 100%
+  box-shadow: 0px 0px 20px rgba(0,0,0,.2)
+  border-radius: 20px
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 15px
+  text-align: center
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #C8D5C6
+    h5
+      color: #12263F !important
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    width: 100%
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #3A4A38
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p 
+        font-size: 0.85em
+
+.tabs-a__tab
+  background-color: #E9BD68
+
+.cont_2_4, .cont_2_4 *
+  position: relative
+.cont_2_4:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 100%
+  left: -8%
+  top: 0
+  background: url(../assets/curso/tema2/17.png)
+  background-size: 100% 100%
+
+.cont_2_5, .cont_2_5 *
+  position: relative
+.cont_2_5:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 80%
+  left: -8%
+  top: 10%
+  bottom: 10%
+  background: url(../assets/curso/tema2/27.png)
+  background-size: 100% 100%
+
+.cont_2_6
+  background: url(../assets/curso/tema2/29.png)
+  background-size: 100% 100%
+  box-shadow: 0px 0px 20px rgba(0,0,0,.2)
+  border-radius: 20px
+
+@media screen and (max-width: 992px)
+  .cont_2_1
+    background: rgb(233,189,104)
+    background: linear-gradient(180deg, rgba(233,189,104,1) 53%, rgba(240,243,240,1) 53%)
+  .cont_2_2:before, .cont_2_3,.cont_2_4:before,.cont_2_5:before,.cont_2_6
     background-size: cover !important
