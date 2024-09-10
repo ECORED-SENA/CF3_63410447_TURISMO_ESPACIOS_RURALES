@@ -233,8 +233,8 @@
             img(src="@/assets/curso/tema2/18.png")
       
       .row.mt-4
-        .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-          figure.m-auto.col-8.col-md-7.col-lg-12
+        .col-lg-5(data-aos="fade-right" style="place-self:center;")
+          figure.d-none.d-lg-block
             img(src="@/assets/curso/tema2/19.png")
         .col-lg-7(data-aos="fade-left")
           p Cuando se planifique el alojamiento, los requisitos clave en la prestación de este servicio en el espacio rural son:
@@ -459,8 +459,145 @@
               p.mb-0 Las rutas alimentarias son recorridos turísticos diseñados para promocionar y valorizar los alimentos regionales como parte del patrimonio cultural. Estos alimentos son productos representativos de cada tierra y clima, que expresan las tradiciones y culturas de los pueblos.
     
     p.mt-4(data-aos="fade-right") Los objetivos son:
-                
 
+    .cont_2_7.mt-4
+      .col-xl-10.m-auto
+        .row
+          .col-lg-8
+            .row.justify-content-center
+              .col-md.mb-4.mb-md-0
+                .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip2 = false" data-aos="zoom-in")
+                  .indicador--hover(v-if="indicadorTarjetaFlip2")
+                  .tarjeta-flip__contenedor
+                    .tarjeta-flip__img.d-flex(:style="{'background-image': `url(${require('@/assets/curso/tema2/47.png')})`}")
+                      h5.m-auto.p-3.text-center(style="max-width:fit-content;background-color:#E9BD68;") Promoción de #[br] alimentos tradicionales
+                    .tarjeta-flip__contenido.p-4.p-xl-5.cont_flip_contenido
+                      h5.mt-5.mb-4 Promoción de alimentos tradicionales
+                      p.mb-5 Posicionar los alimentos locales en el mercado turístico y valorarlos como una expresión cultural.
+              .col-md.mb-4.mb-md-0
+                .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip2 = false" data-aos="zoom-in")
+                  .tarjeta-flip__contenedor
+                    .tarjeta-flip__img.d-flex(:style="{'background-image': `url(${require('@/assets/curso/tema2/49.png')})`}")
+                      h5.m-auto.p-3.text-center(style="max-width:fit-content;background-color:#E9BD68;") Fomento de #[br] la identidad territorial
+                    .tarjeta-flip__contenido.p-4.p-xl-5.cont_flip_contenido
+                      h5.mt-5.mb-4 Fomento de la identidad territorial
+                      p.mb-5 Los alimentos incluidos en las rutas deben ser aquellos con mayor arraigo y una fuerte identidad territorial.
+          .col-lg-4.p-relative.d-none.d-lg-block(data-aos="fade-left" style="place-self:center;")
+            figure
+              img(src="@/assets/curso/tema2/50.png")
+      
+      p.mt-5(data-aos="fade-right") Algunos ejemplos son:
+    
+    .col-xl-10.m-auto.mt-4
+      .row.justify-content-center
+        .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="zoom-in")
+          .h-100(style="background-color:#FBF2E0;border-radius:40px 40px 20px 20px;")
+            figure
+              img(src="@/assets/curso/tema2/51.png")
+            h5.text-white.m-auto.p-1.ps-2.pe-2(style="background-color:#8804C3;max-width:fit-content;position:relative;top:-20px;") Europa
+            .p-4.p-lg-5.pb-2.pt-lg-2
+              p.mb-0 Las rutas alimentarias han sido ampliamente difundidas y exitosas.
+            figure.text-end.p-2.pt-0
+              img(src="@/assets/curso/tema2/52.svg" style="max-width:70px;display:inline;")
+        .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="zoom-in")
+          .h-100(style="background-color:#FBF2E0;border-radius:40px 40px 20px 20px;")
+            figure
+              img(src="@/assets/curso/tema2/53.png")
+            h5.text-white.m-auto.p-1.ps-2.pe-2(style="background-color:#8804C3;max-width:fit-content;position:relative;top:-20px;") América latina
+            .p-4.p-lg-5.pb-2.pt-lg-2
+              p.mb-0 Argentina destaca como uno de los países que más ha trabajado en el desarrollo y promoción de rutas alimentarias.
+            figure.text-end.p-2.pt-0
+              img(src="@/assets/curso/tema2/52.svg" style="max-width:70px;display:inline;")
+    
+    p.mt-4(data-aos="fade-right") Estas iniciativas permiten no solo preservar y difundir el patrimonio gastronómico de una región, sino también integrar la cultura alimentaria en la experiencia turística, enriqueciendo la oferta y fortaleciendo la identidad local.
+                
+    .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0(style="place-self:center;")
+          figure
+            img(src="@/assets/curso/tema1/14.svg")
+        .col.ps-2(style="place-self:center;")
+          h3.mb-0.pe-5 Calidad en el turismo rural
+    
+    p(data-aos="fade-left") La oferta de turismo rural, las actividades, los alojamientos, y los servicios deben ser caracterizados por una calidad distintiva, reflejada en sellos de garantía que aseguren la plena satisfacción del cliente.
+
+    TabsB.color-acento-botones.mt-4
+      .py-4.py-md-5(titulo="Norma ISO 9000" :icono="require('@/assets/curso/tema2/55.svg')")
+        .row.col-xl-11.m-auto
+          .col-lg-8.mb-4.mb-lg-0
+            h5 Norma ISO 9000 
+            p Define la calidad como la capacidad de un bien o servicio para cumplir con las especificaciones de una norma, ya sea voluntaria o regulatoria. Describe la calidad como la capacidad de un bien o servicio para satisfacer las expectativas explícitas e implícitas de un cliente. 
+          .col-lg-4
+            figure.m-auto.col-8.col-md-7.col-lg-12
+              img(src='@/assets/curso/tema2/56.png')
+      .py-4.py-md-5(titulo="Percepción del cliente" :icono="require('@/assets/curso/tema2/57.svg')")
+        .row.col-xl-11.m-auto
+          .col-lg-8.mb-4.mb-lg-0
+            h5 Percepción del cliente 
+            p La calidad también puede ser concebida como la percepción del cliente, es decir, la diferencia entre lo que se entrega y lo que se recibe o percibe por parte del cliente. 
+          .col-lg-4
+            figure.m-auto.col-8.col-md-7.col-lg-12
+              img(src='@/assets/curso/tema2/58.png')
+      .py-4.py-md-5(titulo="Medición de la calidad" :icono="require('@/assets/curso/tema2/59.svg')")
+        .row.col-xl-11.m-auto
+          .col-lg-8.mb-4.mb-lg-0
+            h5 Medición de la calidad 
+            p En el turismo rural, la calidad se puede medir a través de encuestas de satisfacción que evalúan si se cumplen las expectativas del cliente. Se recomienda la adopción de normas voluntarias que promuevan la asociación de empresarios para establecer sistemas de calidad adaptados. 
+          .col-lg-4
+            figure.m-auto.col-8.col-md-7.col-lg-12
+              img(src='@/assets/curso/tema2/60.png')
+    
+    .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0(style="place-self:center;")
+          figure
+            img(src="@/assets/curso/tema1/14.svg")
+        .col.ps-2(style="place-self:center;")
+          h3.mb-0.pe-5 Marketing de turismo rural
+    
+    p(data-aos="fade-left") El marketing del turismo rural se sustenta en seis elementos clave: producto, precio, canales de distribución, promoción, relaciones públicas, y publicaciones.
+
+    TabsA.color-acento-botones.mt-4
+      .tarjeta.color-acento-botones.p-4(titulo="Producto" style="background-color:#E3EAE2;")
+        .row
+          .col-lg-7.mb-4.mb-lg-0
+            h5(style="color:#12263F;") Producto
+            p(style="color:#12263F;") Incluye atractivos, actividades, servicios de alojamiento y alimentación, y la calidad de la experiencia turística ofrecida.
+          .col-lg-5
+            figure.m-auto.col-9.col-md-8.col-lg-12
+              img(src="@/assets/curso/tema2/61.png")
+      .tarjeta.color-acento-botones.p-4(titulo="Precio" style="background-color:#E3EAE2;")
+        .row
+          .col-lg-7.mb-4.mb-lg-0
+            h5(style="color:#12263F;") Precio
+            p(style="color:#12263F;") Estrategias clave incluyen precios diferenciales, competitivos, psicológicos, por líneas de productos, y para productos nuevos, adaptados a las características del mercado objetivo y la oferta turística. 
+          .col-lg-5
+            figure.m-auto.col-9.col-md-8.col-lg-12
+              img(src="@/assets/curso/tema2/62.png")
+      .tarjeta.color-acento-botones.p-4(titulo="Canales de distribución" style="background-color:#E3EAE2;")
+        .row
+          .col-lg-7.mb-4.mb-lg-0
+            h5(style="color:#12263F;") Canales de distribución
+            p(style="color:#12263F;") Comprenden la utilización de centrales de reserva, asociaciones de turismo rural, y el aprovechamiento de la tecnología para la gestión y distribución de servicios turísticos. 
+          .col-lg-5
+            figure.m-auto.col-9.col-md-8.col-lg-12
+              img(src="@/assets/curso/tema2/63.png")
+      .tarjeta.color-acento-botones.p-4(titulo="Promoción" style="background-color:#E3EAE2;")
+        .row
+          .col-lg-7.mb-4.mb-lg-0
+            h5(style="color:#12263F;") Promoción
+            p(style="color:#12263F;") Incluye diversas herramientas y estrategias como publicidad, boca a boca, relaciones públicas, promoción cooperativa, el uso de Internet, y la participación en ferias turísticas para aumentar la visibilidad y atraer a más turistas. 
+          .col-lg-5
+            figure.m-auto.col-9.col-md-8.col-lg-12
+              img(src="@/assets/curso/tema2/64.png")
+      .tarjeta.color-acento-botones.p-4(titulo="Publicaciones" style="background-color:#E3EAE2;")
+        .row
+          .col-lg-7.mb-4.mb-lg-0
+            h5(style="color:#12263F;") Publicaciones
+            p(style="color:#12263F;") Herramientas de difusión como guías turísticas y de servicios, mapas, planos, rutas turísticas, folletos, publicaciones especializadas como revistas de turismo rural, y reportajes de televisión, que ayudan a informar y atraer a los visitantes potenciales al destino rural. 
+          .col-lg-5
+            figure.m-auto.col-9.col-md-8.col-lg-12
+              img(src="@/assets/curso/tema2/65.png")
 
 
 
@@ -474,6 +611,7 @@ export default {
   name: 'Tema2',
   data: () => ({
     indicadorTarjetaFlip: true,
+    indicadorTarjetaFlip2: true,
   }),
   mounted() {
     this.$nextTick(() => {
