@@ -65,7 +65,7 @@
             figure.m-auto.col-9.col-md-7.col-lg-12
               img(src='@/assets/curso/tema1/10.png')
     
-    p.mt-5(data-aos="fade-right") Las tendencias de la demanda turística actual se encuentran enmarcadas en los siguientes factores.
+    p.mt-5(data-aos="fade-right") Las tendencias de la demanda turística actual se encuentran enmarcadas en los siguientes factores:
 
     .col-xl-10.m-auto.mt-4
       .row.justify-content-center
@@ -77,7 +77,7 @@
           .p-3(style="background-color:#C8D5C6;")
             .d-flex
               i.fas.fa-check-circle(style="color:#694D7E;place-self:center;")
-              span.ps-3 La supersegmentación del mercado, es decir, la división y subdivisión del mercado.
+              span.ps-3 La super segmentación del mercado, es decir, la división y subdivisión del mercado.
           .p-3(style="background-color:#EED7FE;")
             .d-flex
               i.fas.fa-check-circle(style="color:#694D7E;place-self:center;")
@@ -97,7 +97,7 @@
           .p-3(style="background-color:#EED7FE;")
             .d-flex
               i.fas.fa-check-circle(style="color:#694D7E;place-self:center;")
-              span.ps-3 La baja disposición de tiempo
+              span.ps-3 La baja disposición de tiempo.
     
     Separador
 
@@ -263,13 +263,23 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/28.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 
-            | #[strong Argentina] #[br]
-            | Atractivos naturales #[br]
-            | Patrimonio histórico y museos #[br]
-            | Folklore y manifestaciones de la cultura tradicional #[br]
-            | Realizaciones técnicas o artísticas contemporáneas #[br]
-            | Acontecimientos programados y manifestaciones culturales contemporáneas
+            p.mb-0.d-block #[strong Argentina]
+            ul.lista-ul.d-block.mt-2.mb-0
+              li.d-block.mb-0.d-flex
+                i.lista-ul__vineta
+                span Atractivos naturales.
+              li.d-block.mb-0.d-flex
+                i.lista-ul__vineta
+                span Patrimonio histórico y museos.
+              li.d-block.mb-0.d-flex
+                i.lista-ul__vineta
+                span Folklore y manifestaciones de la cultura tradicional.
+              li.d-block.mb-0.d-flex
+                i.lista-ul__vineta
+                span Realizaciones técnicas o artísticas contemporáneas.
+              li.d-block.mb-0.d-flex
+                i.lista-ul__vineta
+                span Acontecimientos programados y manifestaciones culturales contemporáneas.
     
     p.mt-4(data-aos="fade-right") En Colombia, la clasificación de los atractivos turísticos y de los recursos (potenciales) se organiza de la siguiente manera:
 
@@ -316,11 +326,7 @@
           .row.col-xl-11.m-auto(titulo="Aprovechamiento y potencialidad")
             p.mb-0 Determinación del grado de aprovechamiento actual y la potencialidad para desarrollar actividades turísticas, proporcionando un diagnóstico de la oferta disponible y priorizando su inclusión en la oferta turística rural. 
               
-
-          
-
-              
-      
+    p.mt-4(data-aos="fade-up") Los recursos y atractivos serán pasivos mientras el turista no pueda desarrollar en ellos actividades debido a las condiciones del entorno y las características de los mismos, es decir, en ese contexto el turista será un simple espectador. Por el contrario, los recursos y atractivos activos son aquellos que permiten la realización de actividades deportivas, socioculturales o la participación en tareas habituales del espacio rural, entre otras. Este enfoque de recursos pasivos y activos es un concepto español.       
 
 
 

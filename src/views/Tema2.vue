@@ -344,95 +344,178 @@
       .col-xl-11.m-auto.mt-4
         SlyderF(columnas="col-lg-4 p-4")
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/30.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Medios de Transporte 
-              p.mb-0 Carreteras y vías de acceso 
-              p Alquiler de fincas
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Medios de Transporte.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Carreteras y vías de acceso.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Alquiler de fincas.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/31.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Básicos
-              p.mb-0 Infraestructura 
-              p Energía
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Básicos.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Infraestructura.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Energía.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/32.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Alojamiento
-              p Alquiler de fincas o casas rurales
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Alojamiento.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Alquiler de fincas o casas rurales.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/33.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Complementario
-              p Alimentación en alojamiento rural
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Complementario.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Alimentación en alojamiento rural.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/34.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Información y otros
-              p Oficinas de turismo con información sobre
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Información y otros.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Oficinas de turismo con información sobre: señalización, acueducto y alcantarillado.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/35.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Señalización
-              p.mb-0 Acueducto 
-              p Alcantarillado
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Señalización.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Acueducto.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Alcantarillado.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/36.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Alquiler de habitaciones en fincas o casas de familia (finca hoteles y granjas)
-              p.mb-0 Posadas Camping turísticas
-              p Rurales
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Alquiler de habitaciones en fincas o casas de familia (finca hoteles y granjas).
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Posadas #[em Camping] turísticas.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Rurales.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/37.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Restaurantes
-              p.mb-0 Estaderos
-              p Bares
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Restaurantes.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Estaderos.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Bares.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/38.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Centrales de reserva
-              p.mb-0 Puntos de información turística 
-              p.mb-0 Guías e informadores turísticos
-              p Agencia de viajes
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Centrales de reserva.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Puntos de información turística.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Guías e informadores turísticos.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Agencia de viajes.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/39.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Terminales de transportes
-              p Parqueaderos
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Terminales de transportes.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Parqueaderos.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/40.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Telecomunicaciones
-              p Seguridad
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Telecomunicaciones.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Seguridad.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/41.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center Hoteles rurales
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Hoteles rurales.
+              p.mt-3.text-center
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/42.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center.mb-0 Servicio de transporte público
-              p.mb-0 Seguridad
-              p Salud
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Servicio de transporte público.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Seguridad.
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Salud.
           .tarjeta.cont_2_6.p-4
-            .pb-4.text-center
+            .pb-4
               figure.text-center
                 img(src="@/assets/curso/tema2/43.svg" style="max-width:100px;display:inline;")
-              p.mt-3.text-center Comercio, bancos, lugares de compra
+              ul.lista-ul.d-block.mt-2.mb-0
+                li.d-block.mb-0.d-flex
+                  i.lista-ul__vineta
+                  span Comercio, bancos, lugares de compra.
 
       .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
         .row
@@ -503,7 +586,7 @@
           .h-100(style="background-color:#FBF2E0;border-radius:40px 40px 20px 20px;")
             figure
               img(src="@/assets/curso/tema2/53.png")
-            h5.text-white.m-auto.p-1.ps-2.pe-2(style="background-color:#8804C3;max-width:fit-content;position:relative;top:-20px;") América latina
+            h5.text-white.m-auto.p-1.ps-2.pe-2(style="background-color:#8804C3;max-width:fit-content;position:relative;top:-20px;") América Latina
             .p-4.p-lg-5.pb-2.pt-lg-2
               p.mb-0 Argentina destaca como uno de los países que más ha trabajado en el desarrollo y promoción de rutas alimentarias.
             figure.text-end.p-2.pt-0
@@ -553,9 +636,9 @@
           figure
             img(src="@/assets/curso/tema1/14.svg")
         .col.ps-2(style="place-self:center;")
-          h3.mb-0.pe-5 Marketing de turismo rural
+          h3.mb-0.pe-5 #[em Marketing] de turismo rural
     
-    p(data-aos="fade-left") El marketing del turismo rural se sustenta en seis elementos clave: producto, precio, canales de distribución, promoción, relaciones públicas, y publicaciones.
+    p(data-aos="fade-left") El #[em marketing] del turismo rural se sustenta en seis elementos clave: producto, precio, canales de distribución, promoción, relaciones públicas, y publicaciones.
 
     TabsA.color-acento-botones.mt-4
       .tarjeta.color-acento-botones.p-4(titulo="Producto" style="background-color:#E3EAE2;")

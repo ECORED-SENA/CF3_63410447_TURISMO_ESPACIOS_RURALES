@@ -126,7 +126,7 @@ export default {
     {
       tema: 'La motivación turística ',
       referencia:
-        'Welcome to el Mundo. (2023). Guía Definitiva para viajar por COLOMBIA 🌴 Presupuesto, Qué visitar y más!.  [Archivo de video] Youtube.   ',
+        '<em>Welcome to</em> el Mundo. (2023). Guía Definitiva para viajar por COLOMBIA 🌴 Presupuesto, Qué visitar y más!.  [Archivo de video] Youtube.   ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=2yMhjHURW5A  ',
     },
@@ -228,12 +228,6 @@ export default {
         'Restrepo, T. (2004). <em>La gestión local del turismo en el corredor turístico de La Fé-Guatapé, Oriente Antioqueño</em>. SENA Regional Antioquia-Chocó. ',
       link: '',
     },
-    {
-      referencia:
-        '<em>Sistemas de Gestión de la Calidad. Fundamentos y Vocabulario</em>. En Norma Técnica Colombiana. ICONTEC.',
-      link:
-        'http://www.udea.edu.co/portal/page/portal/bibliotecaSedesDependencias/unidadesAcademicas/FacultadMedicina/BilbiotecaDiseno/Archivos/GestionAdministrativa/ntc-iso_9000.pdf',
-    },
   ],
   creditos: [
     {
@@ -255,8 +249,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Julio Hernán Beltrán Peñuela ',
+          cargo: 'Experto temático  ',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca ',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta ',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -265,18 +265,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Blanca Flor Tinoco Torres ',
+          cargo: 'Diseñador de contenidos digitales s',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga ',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -286,21 +281,16 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
