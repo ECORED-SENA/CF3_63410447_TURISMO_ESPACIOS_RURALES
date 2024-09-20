@@ -407,20 +407,6 @@
           .tarjeta.cont_2_6.p-4
             .pb-4
               figure.text-center
-                img(src="@/assets/curso/tema2/35.svg" style="max-width:100px;display:inline;")
-              ul.lista-ul.d-block.mt-2.mb-0
-                li.d-block.mb-0.d-flex
-                  i.lista-ul__vineta
-                  span Señalización.
-                li.d-block.mb-0.d-flex
-                  i.lista-ul__vineta
-                  span Acueducto.
-                li.d-block.mb-0.d-flex
-                  i.lista-ul__vineta
-                  span Alcantarillado.
-          .tarjeta.cont_2_6.p-4
-            .pb-4
-              figure.text-center
                 img(src="@/assets/curso/tema2/36.svg" style="max-width:100px;display:inline;")
               ul.lista-ul.d-block.mt-2.mb-0
                 li.d-block.mb-0.d-flex
@@ -428,10 +414,7 @@
                   span Alquiler de habitaciones en fincas o casas de familia (finca hoteles y granjas).
                 li.d-block.mb-0.d-flex
                   i.lista-ul__vineta
-                  span Posadas #[em Camping] turísticas.
-                li.d-block.mb-0.d-flex
-                  i.lista-ul__vineta
-                  span Rurales.
+                  span Posadas, #[em camping], turísticas, rurales.
           .tarjeta.cont_2_6.p-4
             .pb-4
               figure.text-center
