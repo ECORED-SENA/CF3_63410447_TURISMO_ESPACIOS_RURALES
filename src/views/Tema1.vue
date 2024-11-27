@@ -77,7 +77,7 @@
           .p-3(style="background-color:#C8D5C6;")
             .d-flex
               i.fas.fa-check-circle(style="color:#694D7E;place-self:center;")
-              span.ps-3 La super segmentación del mercado, es decir, la división y subdivisión del mercado.
+              span.ps-3 La supersegmentación del mercado, es decir, la división y subdivisión del mercado.
           .p-3(style="background-color:#EED7FE;")
             .d-flex
               i.fas.fa-check-circle(style="color:#694D7E;place-self:center;")

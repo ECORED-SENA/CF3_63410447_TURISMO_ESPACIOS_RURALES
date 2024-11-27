@@ -18,7 +18,7 @@ export default {
       tema: 'Explorando el turismo rural .',
       titulo: 'Cuestionario',
       introduccion:
-        'Identificar  los conceptos clave del turismo rural, incluyendo las características de la demanda, la oferta turística, las actividades, el alojamiento y las estrategias de marketing. ',
+        'Identificar  los conceptos clave del turismo rural, incluyendo las características de la demanda, la oferta turística, las actividades, el alojamiento y las estrategias de <i>marketing</i>. ',
       barajarPreguntas: false,
       preguntas: [
         {

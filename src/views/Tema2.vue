@@ -296,7 +296,7 @@
           .row.col-xl-11.m-auto(titulo="Habitaciones diferentes")
             .col-lg-7.mb-4.mb-lg-0
               p Las habitaciones deben diferenciarse de las de un hotel tradicional.  
-              p por ejemplo:
+              p Por ejemplo:
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle(style="color:#946CB1;")
